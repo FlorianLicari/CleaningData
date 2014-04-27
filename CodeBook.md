@@ -15,7 +15,7 @@ The data used in this peer assignement are data collected from the accelerometer
 - Three columns are added at the begining, one to identify the *subject*, one for the *activity code* and one for *the explicit name of the activity*.
 - For clarity, the data set is labeled with descriptive columns name to get the "tidydata" data set. An export is made in the text file **tidydata.txt**.
 - Finally, the "tidydata" is melted to create one final tidy data set *summary* with the average of each variable for each activity and each subject and then export in the text file **summary.txt**.
-***
+- - -
 
 ###Main variables used:
 - table: Combination of the training set and the test set
@@ -28,7 +28,7 @@ The data used in this peer assignement are data collected from the accelerometer
 - activity_name: Links the class labels with their activity name.
 - tidydata: A data set coming from the merging of *extract*, *subject*, *activity_code* and *activity_name* with descriptive columns name.
 - summary: A data set with the average of each variable for each activity and each subject.
-***
+- - -
 
 ###Files
 * tidydata.txt
